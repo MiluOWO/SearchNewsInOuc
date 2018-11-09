@@ -16,9 +16,9 @@
 
 |文件名|描述|
 --- |--- | ---|
-|urlAndTitle.txt|存储新闻url以及标题名|
-|title.txt|标题|
-|/article/xxx.txt|所有新闻内容，文件名即新闻标题名|
+urlAndTitle.txt|存储新闻url以及标题名|
+title.txt|标题|
+/article/xxx.txt|所有新闻内容，文件名即新闻标题名|
 
 爬取完毕之后，转到数据处理模块。
 
