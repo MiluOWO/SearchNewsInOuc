@@ -1,0 +1,8 @@
+<h1>Hello!</h1>
+<form method="POST" action="/">
+{{ form.hidden_tag() }}
+{{ form.keyword.label }} {{ form.keyword }}<br>
+{{ form.submit }}
+</form>
+<h2>你查询的关键词为: {% if keyword %}{{ keyword }}{% endif %}</h2>
+查询结果：<br><ul>{% for i in answer %}<li>{{i}}</li> {% endfor %}</ul>
